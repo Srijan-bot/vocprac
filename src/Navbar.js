@@ -1,4 +1,4 @@
-import "./Nav.css"
+import "./Nav.css";
 export default function Navbar() {
   return (
     <nav className="nav">
@@ -6,14 +6,14 @@ export default function Navbar() {
         Voice of Commerce
       </a>
       <ul>
-        <li>
+        <li className="active">
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/">About</a>
+          <a href="/about">About</a>
         </li>
         <li>
-          <a href="/">Events</a>
+          <a href="/event">Event</a>
         </li>
       </ul>
     </nav>
